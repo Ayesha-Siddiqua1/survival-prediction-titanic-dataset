@@ -31,5 +31,3 @@ The dataset used in this project is the **Titanic dataset** from [Kaggle](https:
 - `Fare`: Fare paid for the ticket.
 - `Cabin`: Cabin number (if available).
 - `Embarked`: Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton).
-
-
