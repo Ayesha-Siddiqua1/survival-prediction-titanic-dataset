@@ -32,7 +32,39 @@ The dataset used in this project is the **Titanic dataset** from [Kaggle](https:
 - `Cabin`: Cabin number (if available).
 - `Embarked`: Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton).
 
+## ⚙️ Installation
+### 1️⃣ Clone the repository
+```
+git clone https://github.com/your-username/titanic-survival-prediction.git
+cd titanic-survival-prediction
+```
+2️⃣ Install dependencies
+Make sure you have Python installed, then install the required libraries:
 
+```
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
+📊 Exploratory Data Analysis (EDA)
+The project includes visualizations and statistical analysis to explore survival rates based on:
 
+Passenger class
+Gender
+Age groups
+Family members aboard
+
+🤖 Machine Learning Models
+The project uses multiple ML models, including:
+
+Logistic Regression
+
+Model is evaluated based on accuracy, precision, recall, and F1-score.
+
+🚀 How to Run
+Run the Python script to train the model and make predictions:
+```
+python titanic_survival_prediction.py
+```
+
+📈 Results
 Here I used the LogisticRegression model for survival prediction.
 
